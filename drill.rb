@@ -1,9 +1,7 @@
-i = 0
-sum = 0
-while i < 100 do
-  i += 1
-  sum += i
-  puts i
+num = 1
+time = 0
+while time < 10 do
+  num = num *2
+  time += 1
 end
-
-puts sum
+puts num
