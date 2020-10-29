@@ -1,7 +1,4 @@
-num = 1
-time = 0
-while time < 10 do
-  num = num *2
-  time += 1
+num = 77
+if num%5 == 0
+  puts "buzz"
 end
-puts num
