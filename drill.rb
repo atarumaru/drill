@@ -11,12 +11,21 @@ end
 
 def all_users(array)
   index = 0
-  array.each do |hash| 
+  array.each do |hash|
     puts "-------------------------------"
     puts "ユーザー氏名#{index} #{hash[:name]}"
     puts "-------------------------------"
     index += 1
   end
+  puts "見たいユーザーの番号を選択してください"
+  num = gets.to_i
+  show_user(array[num])
+end
+
+def show_user(user)
+  puts "名前:#{user[:name]}"
+  puts "年齢#{user[:age]}"
+  puts "住居地#{user[:address]}"
 end
 
 users = []
