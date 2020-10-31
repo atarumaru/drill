@@ -17,15 +17,15 @@ def all_users(array)
     puts "-------------------------------"
     index += 1
   end
-  puts "見たいユーザーの番号を選択してください"
+  puts "見たいユーザーを選択してください"
   num = gets.to_i
   show_user(array[num])
 end
 
-def show_user(user)
-  puts "名前:#{user[:name]}"
-  puts "年齢#{user[:age]}"
-  puts "住居地#{user[:address]}"
+def show_user(hash)
+  puts "#{hash[:name]}"
+  puts "#{hash[:age]}"
+  puts "#{hash[:address]}"
 end
 
 users = []
