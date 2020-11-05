@@ -27,7 +27,7 @@ def all_users(array)
       all_users(array)
     end
   else
-    puts "ユーザー情報がnaiyo"
+    puts "ユーザー情報がありません"
   end
 end
 
