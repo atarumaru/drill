@@ -2,6 +2,8 @@ def registration(array)
   hash = {}
   puts "氏名を入力してください"
   hash[:name]=gets.chomp
+  puts "性別を入力してください"
+  hash[:gender]=gets.chomp
   puts "年齢を入力してください"
   hash[:age]=gets.to_i
   puts "居住する都道府県を入力してください"
@@ -34,6 +36,7 @@ end
 def show_user(hash)
   puts "#{hash[:name]}"
   puts "#{hash[:age]}"
+  puts "#{hash[:gender]}"
   puts "#{hash[:address]}"
 end
 
