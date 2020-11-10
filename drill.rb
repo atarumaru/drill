@@ -12,7 +12,7 @@ def registration(array)
 end
 
 def all_users(array)
-  if array != []
+  if array.empty?
     index = 0
     array.each do |hash|
       puts "-------------------------------"
@@ -20,7 +20,7 @@ def all_users(array)
       puts "-------------------------------"
       index += 1
       end
-    puts "見たいユーザーを選択してください！"
+    puts "見たいユーザーを選択してください"
     num = gets.to_i
     if num < index
     show_user(array[num])
