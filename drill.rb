@@ -13,6 +13,8 @@ end
 
 def all_users(array)
   if array.empty?
+    puts "ユーザー情報がありません"
+  else
     index = 0
     array.each do |hash|
       puts "-------------------------------"
@@ -28,8 +30,6 @@ def all_users(array)
       puts "値が正しくありません"
       all_users(array)
     end
-  else
-    puts "ユーザー情報がありません"
   end
 end
 
