@@ -34,10 +34,15 @@ def all_users(array)
 end
 
 def show_user(hash)
-  puts "#{hash[:name]}"
-  puts "#{hash[:age]}"
+  puts "-------------------------------"
+  puts "ユーザー氏名#{hash[:name]}"
+  puts "-------------------------------"
+  puts "#{hash[:age]}歳"
+  puts "-------------------------------"
   puts "#{hash[:gender]}"
+  puts "-------------------------------"
   puts "#{hash[:address]}"
+  puts "-------------------------------"
 end
 
 users = []
