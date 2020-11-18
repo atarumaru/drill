@@ -26,6 +26,16 @@ const quiz = [
       'アチチウワチチモンチッチ',
     ],
   correct: 'ブラックホワイトタンロングコートチワワ',
+  },
+  {
+    question: '長野県の県歌の名前は？',
+    answers: [
+      '信濃の国',
+      '信州讃歌',
+      'ジンギスカン',
+      '小さな恋の歌',
+    ],
+  correct: '信濃の国',
   }
 ];
 const quizLngth = quiz.length;
